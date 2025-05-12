@@ -3,7 +3,7 @@
 # FIRST PLAY --> multiple tasks
 - name: Install HTTPD server
   hosts: n1
-  remote_user: centos
+  remote_user: ec2-user
   become: yes
 
   tasks:
